@@ -10,7 +10,7 @@ const app = express();
 dbConnect()
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://vibe-cart-hazel.vercel.app",
     credentials:true
 }))
 app.use(express.json())
